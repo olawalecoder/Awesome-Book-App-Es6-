@@ -35,7 +35,7 @@ bookList.addEventListener('click', (event) => {
 addBtn.addEventListener('click', (e) => {
   // prevents a page reload
   e.preventDefault();
-  // creates an object with the book values gotten from the inputs
+  // creates an object with the book value gotten from the inputs
   const ola = {
     title: bookTitle.value,
     author: bookAuthor.value,
