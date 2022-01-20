@@ -22,7 +22,7 @@ const render = () => {
             <hr>
             `;
   });
-}
+};
 
 bookList.addEventListener('click', (event) => {
   if (event.target.id === 'delete') {
