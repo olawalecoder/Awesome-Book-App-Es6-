@@ -11,7 +11,7 @@ const form = document.querySelector('form');
 
 const newBook = new Book();
 
-function render() {
+const render = () => {
   bookList.innerHTML = '';
   newBook.storedBook.forEach((singleBook) => {
     bookList.innerHTML += `
