@@ -35,13 +35,13 @@ bookList.addEventListener('click', (event) => {
 addBtn.addEventListener('click', (e) => {
   // prevents a page reload
   e.preventDefault();
-  // creates an object with the book value gotten from the inputs
+  // creates an object with the book value gotten from inputs
   const ola = {
     title: bookTitle.value,
     author: bookAuthor.value,
     id: Date.now().toString(36),
   };
-  // stores them in a temp array
+  // stores them in a temporary array
   newBook.storedBook.push(ola);
   render();
 
